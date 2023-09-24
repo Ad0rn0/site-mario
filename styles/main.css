@@ -1,0 +1,55 @@
+main {
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main_info {
+    width: 100%;
+    max-width: 570px;
+}
+
+.main_info p {
+    font-size: 18px;
+    margin: 20px 0 28px;
+    text-align: justify;
+}
+
+.main_info div {
+    display: flex;
+    column-gap: 32px;
+}
+
+.main_info div a,
+.main_info div button {
+    padding: 20px;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-10deg);
+}
+
+.main_info div>.red_solid {
+    background-color: var(--red);
+}
+
+.main_info div .green_solid {
+    background-color: var(--green);
+}
+
+@media screen and (max-width: 1000px) {
+    .imagem {
+        display: none;
+    }
+}
